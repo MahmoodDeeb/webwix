@@ -1,0 +1,131 @@
+<html>
+<head>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="assets/css/all.css"/>
+<link rel="stylesheet" href="assets/css/scratch-style.css"/>
+    
+<link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css"/>
+</head>
+    
+<body>
+    
+<div id="up-cont">
+<div id="up"><i class="fas fa-hand-point-up"></i></div>
+</div>   
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+  <a class="navbar-brand pt-3 float-left" href="index.html"><span>W</span>ix</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+    <ul class="navbar-nav">
+      <li class="nav-item active  pt-2 ml-5">
+        <a class="nav-link" href="scratch.html">Page : Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item  pt-2 ml-3">
+        <a class="nav-link" href="index.html"  id="FeaturesBtn">Features</a>
+      </li>
+        
+      <li class="nav-item  pt-2 ml-3">
+        <a class="nav-link" href="../home/index.html"  id="saveBtn">Save</a>
+      </li>
+        
+        <li class="nav-item  pt-2 ml-3">
+        <a class="nav-link" href="#"  id="publishBtn">Publish</a>
+      </li>
+
+      </ul>
+    </div>
+    
+</nav>  
+    
+<section class="rightSide bg-white text-center">
+
+    <h6 class="bg-dark text-white">ToolBox</h6>
+    <a tabindex="0" class="copyBtn btn" onclick="copyBtn()" role="button" data-toggle="popover" data-trigger="focus" title="Copy" >
+    <i class="fas fa-copy fa-lg mt-2 icons-color"></i></a>
+    <br/>
+    <a tabindex="0" class="deleteBtn btn"onclick="deleteBtn()" role="button" data-toggle="popover" data-trigger="focus" title="Delete">
+        <i class="fas fa-trash-alt fa-lg mt-3 icons-color"></i></a>
+    <br/> 
+     <a tabindex="0" class="pasteBtn btn"onclick="pasteBtn()" role="button" data-toggle="popover" data-trigger="focus" title="Paste">
+         <i class="fas fa-paste fa-lg mt-3 mb-4 icons-color"></i></a>
+</section>    
+     
+    
+<section class="leftSide">
+                
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-md-1 tools bg-dark ">
+      
+     
+        
+        <button class="add btn btn-light text-primary mt-5"><i class="fas fa-plus-circle fa-2x"></i>Add</button>
+        <div class="addContainer text-primary mt-4">
+         <h6 class="pt-1 text-white">Add Text</h6> <hr/>
+           
+         <h5 class="tool bg-light tool-1">Text</h5>
+         <h5 class="tool bg-light tool-2">Button</h5>
+         <h5 class="tool bg-light tool-3">h1</h5>
+        </div>  
+        
+        <hr/> 
+        <button class="colorPage btn btn-light text-primary mt-1"><i class="fas fa-plus-circle fa-2x"></i>Color</button>
+        <div class="colorContainer mt-2">
+         <h6 class="pt-2 text-white">Add Color</h6> 
+           
+                <a onclick="changecolor('darkblue')" id="darkblue">#004c7f</a> 
+                <a onclick="changecolor('babyblue')" id="babyblue">#87CEFA</a>
+                <a onclick="changecolor('blue')" id="blue">#0098ff</a>
+                <a onclick="changecolor('wblue')" id="wblue">#50b9ff</a>      
+        </div>
+                    
+        
+      
+        <hr/>
+        <button class="imgPage btn btn-light text-primary mt-1"><i class="fas fa-image fa-2x"></i>Image</button>
+        <div class="imageContainer mt-2">
+         <h6 class="pt-1 text-white">Add Image</h6> <hr/>
+         
+        <a onclick="changeimg1()"><img class="img-fluid img-thumbnail" src="assets/images/project-counter.jpg"/></a>
+       <!-- <a onclick="changeimg2()"><img class="img-fluid img-thumbnail" src="assets/images/spot-light.jpg"/></a>-->
+        <a onclick="changeimg3()"><img class="img-fluid img-thumbnail" src="assets/images/girl.jpg"/></a>
+        <a onclick="changeimg4()"><img class="img-fluid img-thumbnail" src="assets/images/client-testimonial.jpg"/></a>
+       
+        </div>
+       
+   </div>
+       <div class="col-md-11 canvas bg-light">
+      <div class="topHeader">
+        <h6 class="m-2" data-toggle="tooltip" data-placement="right" title="header">Header</h6>
+          <div id="resiz" class="redDiv" style="background-color: red">
+     </div>
+      </div>
+        
+        
+       <div class="bottomFooter">
+        <h6 class="m-2" data-toggle="tooltip" data-placement="right" title="footer">Footer</h6>
+            
+         
+      </div> 
+           
+    </div>
+        
+        
+</div> 
+</div> 
+</section>  
+    
+    
+    
+   
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>   
+    <script src="assets/js/popper.min.js"></script>        
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/scratch-js.js"></script> 
+   
+
+</body>
+</html>

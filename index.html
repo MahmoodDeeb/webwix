@@ -1,0 +1,453 @@
+<!--<!DOCTYPE html>-->
+
+<html>
+    <head>
+        
+<title>&#9752; Wix &#9752;</title>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>  
+        
+<link rel="stylesheet" href="assets/css/all.css"/>   
+        
+<link rel="stylesheet" href="assets/css/animate.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+        
+
+
+      
+
+<link rel="stylesheet" href="assets/css/home-style.css"/>
+
+
+ 
+ </head>
+    <body>
+        <div id="up-cont">
+         <div id="up"><i class="fas fa-hand-point-up"></i></div>
+        </div>
+        <!-- login and sign in -->
+        
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close2" title="Close Modal">&times;</span>
+      <img src="assets/images/img9.gif" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input  class="form-control my-3"type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input class="form-control my-3"type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button class=" mb-3 btn our-btn btn-block"type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="btn btn-danger cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+   <div id="id02" class="modal2 animate">
+  <span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span>
+  <form class="modal2-content">
+    <div  id="contOfForm"class="container ">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text"  class=" mb-3 form-control "placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password"  class=" mb-3 form-control" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" class=" mb-3 form-control" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+          <button type="submit" class="btn  btn-block our-btn signupbtn2">Sign Up</button>
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="btn btn-danger btn-block cancelbtn2">Cancel</button>
+        
+      </div>
+    </div>
+  </form>
+</div>
+        <div id="id03" class="modal3">
+   <span onclick="document.getElementById('id03').style.display='none'" class="close3" title="Close Modal3">&times;</span>
+  <form class="modal-content animate" >
+  
+
+    
+    <div class="container btn-no">
+       <a href="scratch.html"> <button type="button" class="btn our-btn btn-lg btn-block my-5">Start From Scratch</button></a>
+<a href="temp-home.html"><button type="button" class="btn bg-dark text-white btn-lg btn-block my-5 ">Our Ready Templates</button></a>
+       
+        
+      <button type="button" onclick="document.getElementById('id03').style.display='none'" class="btn btn-danger cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+        
+        <!----------------------------->
+        
+        
+       <nav  id="nav-2" class="bg-mine"> <div>
+        <div class="hover"><span>CONTACT US</span><a class="social-link" href="#" target="_blank"><i class="fab fa-twitter"></i></a><a class="social-link" href="#" target="_blank"><i class="fab fa-codepen"></i></a><a class="social-link" href="#" target="_blank"><i class="fab fa-instagram"></i></a><a class="social-link" href="#" target="_blank"><i class="fab fa-github"></i></a></div>
+      </div></nav>
+        
+        <nav class="navbar bg-mine my-font navbar-expand-lg navbar-dark bg-dark ">
+  <a class="navbar-brand pt-3" href="index.html"><span>W</span>ix</a>
+<!--
+            <ul class="navbar-nav ">
+            <li class="nav-item dropdown">
+                
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-globe"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">English</a>
+          <a class="dropdown-item" href="#">Arabic</a>
+          
+        </div>
+      </li>
+                </ul>
+-->
+            
+<button type="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="btn btn-outline-light">SIGN IN</button>   
+            <button type="button" class=" mx-2 btn btn-outline-primary" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" >LOGIN</button>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"  id="FeaturesBtn">Features</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="explore.html">Explore</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#" id="Templates">Templates</a>
+      </li>
+        <li class="nav-item dropdown">
+                
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-globe"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">English</a>
+<!--          <a class="dropdown-item" href="#">Arabic</a>-->
+          
+        </div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+      
+     
+  </div>
+</nav>
+        
+          
+        
+        <div class="clearfix"></div>
+        
+         <header class="header">
+	
+	
+	<div class="text-box">
+		<h1 class="heading-primary">
+			<span class="heading-primary-main wow fadeIn" data-wow-duration="2s">The Best Place to create the Website You Want</span>
+<!--			<span class="heading-primary-sub">The secondary heading</span>-->
+		</h1>
+		<a href="#" class="btn btn-white btn-animated wow bounce open">Get Start</a>
+	</div>
+</header>
+        
+        <div id="first-section">
+        <section>
+        
+             <h2  class="text-center my-5 wow rubberBand" >How to <span>Create</span> a Free Website</h2>
+            <h4 class="text-center my-5 px-5 ">Create a website with Wix's free
+website builder in just 5 easy steps:</h4>
+        
+        <div class="steps">
+<article  class="wow fadeInUp">
+  <h3  >step</h3>
+  <h4>Sign up</h4>
+  <p>Sign up for a free Wix account. Choose what kind of website you want to create.</p>
+</article>
+<article class="wow fadeInUp" >
+  <h3>step</h3>
+  <h4>Answer questions</h4>
+  <p>Answer a few simple questions to get a site created for you with Wix ADI. Or you can start by choosing a designer-made template you like.</p>
+</article>
+<article class="wow fadeInUp" >
+  <h3>step</h3>
+  <h4>Customize </h4>
+  <p>Customize anything on your site. You can add videos, images, text & more.</p>
+</article>
+<article class="wow fadeInUp">
+  <h3>step</h3>
+  <h4>Publish</h4>
+  <p>When you’re ready, publish your website to easily share it with the world.</p>
+</article>
+<article class="wow fadeInUp" >
+  <h3>step</h3>
+  <h4>Develop</h4>
+  <p>Add more as you grow, like your own online store, booking system and more.</p>
+</article>
+  
+  </div>
+        
+        </section>
+        
+      </div>
+        
+        
+        
+        <div id="sec-section">
+            
+            <div class="first-row wow slideInLeft">
+            <div class="row">
+                <div class="col "></div>
+                <div class="col-lg-7 pt-3">
+                <h2 class="p-5">  The Freedom to Create Anything</h2>
+                </div>
+                <div class="col-lg-4  "></div>
+            </div>
+        </div>
+            
+            
+             <div class="sec-row wow slideInRight">
+            <div class="row">
+              
+                <div class="col-lg-12 py-5">
+                
+                </div>
+            </div>
+        </div>
+            
+            
+           <div class="thi-row wow slideInRight">
+            <div class="row">
+                <div class="col-lg-4 "></div>
+                
+                <div class="col-lg-6 p-3">
+                    <div class="whitee p-5">
+                <h4 > We believe anything is possible with the right website builder. Whether you're about to create a website for the first time or you're a long time pro, we've got you covered. You have two ways to start: Get a free website designed for you with Wix Artificial Design Intelligence or get total design freedom with the Wix Editor. You can always add advanced functionality to your website with Wix Code. It's time to get your professional website.</h4>
+                    
+                    <a class="btn mt-4 float-right open">Get Started<i class="far fa-hand-point-right ml-3"></i></a>
+                        
+                    <div class="clearfix"></div>
+                        </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>  
+            
+            
+             <div class="fourth-row">
+            <div class="row">
+              
+                <div class="col-lg-12 py-5">
+                
+                </div>
+            </div>
+        </div>
+            
+            
+            
+        </div>
+        
+        <div id="third-section" class="py-5">
+        
+        <div class="container my-pos">
+            <div class="row mt-5">
+            
+                <div class="col-md-7 col-sm-12 p-5 wow fadeInRight" data-wow-delay=".8s">
+                
+                
+                <h2>Manage and Grow Your Business Online</h2>
+                    <p>No matter who you are photographer, restaurant owner, musician, hotelier and more, you can manage your website and business all in one place. With Wix, the possibilities are really endless! We offer 200 Apps and services to make it easier for you to grow your business or brand online. Easily send beautiful emails, start your own blog, get booked online, open your own online store and more.</p>
+                    
+                    <button  class="btn my-btn open">Get start</button>
+                </div>
+                
+            <div class="col-md-5 col-sm-12 cont-person py-5 px-5 wow fadeInLeft"  data-wow-delay=".8s">
+                
+                <div class="  person">
+                 <img class="img-fluid" src="assets/images/person1.jpg">
+                <div class="bk">
+                    </div>
+                
+                
+                
+                </div>
+                
+                
+                
+                </div>
+            
+            
+            </div>
+            
+                 <div class="row ">
+             <div class="col-md-5 col-sm-12 cont-person my-5 p-5 wow fadeInRight" data-wow-delay=".8s" >
+                
+                <div class="  person2">
+                 <img class="img-fluid" src="assets/images/person2.jpg">
+                <div class="bk">
+                    </div>
+                
+                
+                
+                </div>
+                
+                
+                
+                </div>
+                     
+                <div class="col-md-7 col-sm-12 p-5 my-5 wow fadeInLeft" data-wow-delay=".8s">
+                
+                
+                <h2>What Makes Our Website Builder the Best Choice for You?</h2>
+                    <p>It's simple. With Wix, you get the freedom to create a free website that looks exactly the way you want. It doesn't matter how experienced you are. Prefer to have a website built for you? Try Wix ADI. Need advanced code capabilities? You've got that too. With Wix, you get the whole package, including a website builder, reliable web hosting, top security, and the best SEO for your website. And that's not all, our dedicated Support Team is always here for you.
+Over 125 million people worldwide choose Wix to create a website and manage their business online. Still not convinced? Try our free website builder yourself.</p>
+                    
+                    <button  class="btn my-btn open">Get start</button>
+                </div>
+                
+           
+            
+            
+            </div>
+            
+            
+            </div>
+        
+        
+        </div>
+        
+        <div id="fourth-section" class="my-5" > 
+            
+            <div class="cont mx-auto w-80">
+                
+                <h2  class="text-center my-5 wow fadeIn" data-wow-delay="1.5s">Powerful  <span > Features</span> For Your Website</h2>
+                
+                    
+                            
+                <div class=" wow slideInDown col-md-6 col-sm-12 p-0 float-left ">
+                    <div class="img-coll ">
+                    <div class="big-box">
+                    <img class="img-fluid " src="assets/images/one.jpg">
+                        
+                        <div class="small-box"><h5>Beautiful Blog</h5><p>Create a beautiful blog, grow your community and share your ideas with the world.</p> </div>
+                        
+                    </div>
+                     <div class="big-box">
+                    <img class="img-fluid " src="assets/images/two.jpg">
+                         <div class="small-box"><h5>Media Galleries</h5><p>Display your high-quality images, videos and text in a fully-customizable gallery.</p> </div>
+                    </div>
+                     <div class="big-box" >
+                    <img class="img-fluid " src="assets/images/three.jpg">
+                         <div class="small-box"><h5>Industry-Leading SEO</h5><p>Follow your own personalized SEO plan to get your website found on Google.</p> </div>
+                    </div>
+                     <div class="big-box">
+                    <img class="img-fluid " src="assets/images/four.jpg">
+                         <div class="small-box"><h5>Modern Design</h5><p>Create a beautiful design, grow your community and share your ideas with the world.</p> </div>
+                         
+                        
+                    </div>
+                        
+            
+            </div>
+            </div>
+                 
+                <div class=" wow slideInUp col-md-6 col-sm-12 p-0  float-left">
+                    <div class="img-coll ">
+                    <div class="big-box">
+                    <img class="img-fluid" src="assets/images/five.jpg">
+                        <div class="small-box"><h5>Custom Domains</h5><p>Get a personalized domain name that matches your brand and business.</p> </div>
+                    </div>
+                     <div class="big-box">
+                    <img class="img-fluid " src="assets/images/six.jpg">
+                         <div class="small-box"><h5>Online Store</h5><p>Create a beautiful storefront and manage all your products and orders in one place.</p> </div>
+                    </div>
+                     <div class="big-box">
+                    <img class="img-fluid " src="assets/images/seven.jpg">
+                         <div class="small-box"><h5>Friendly User Interface</h5><p>Create a beautiful design with an easy steps, like you are playing with codes.</p> </div>
+                    </div>
+                    <div class="big-box">
+                    <img class="img-fluid " src="assets/images/nine2.jpg">
+                        <P class="text-center mt-1 big"><a class="btn mt-4 open">Get Started<i class="far fa-hand-point-right ml-3 "></i></a></P>
+                        <div class="small-box"><h5>Mobile Friendly</h5><p>Look amazing on every screen with a mobile-friendly version of your website.</p> </div>
+                    </div>
+                     
+            
+            </div>
+            </div>
+                <div class="clearfix"></div>
+</div>
+                    
+                    
+           
+            
+            
+    
+            
+            
+        </div> 
+        
+        
+        
+        <footer class="  text-center  ">
+        <h2 class="p-5">
+Wix: Trusted by over 20M businesses to make a websites. <a href="#">Get started now!</a>
+</h2>
+            <div class="bottom-bar">
+      All Rights Reserved © 2018 | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> </div>
+        
+        
+        
+        </footer>
+        
+        
+
+        
+
+  
+
+    
+        <script src="assets/js/jquery-3.3.1.min.js"></script> 
+        <script src="assets/js/popper.min.js"></script>        
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/home-js.js"></script>
+         
+
+    </body>
+</html>

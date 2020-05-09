@@ -1,0 +1,180 @@
+*
+{
+    font-family:'Oswald', sans-serif ;
+}
+
+#up-cont
+{ 
+cursor: pointer;background-color:#0098ff; position: fixed;
+height: 50px;
+width: 50px;
+bottom: 50px;
+left:41px;
+z-index: 55544414;
+border-radius: 50%;
+    overflow: auto;
+}
+
+#up 
+{
+background-color: black; position: fixed;
+height: 30px;
+width: 30px;
+bottom: 60px;
+left:51px;
+z-index: 14;
+border-radius: 50%;
+}
+
+#up i
+{
+    color:white;
+    padding-left: 8px;
+    padding-top: 6px;
+}
+
+body
+{
+    font-family: Arial ;
+}
+
+.navbar
+{
+    border: 2px solid #fff ;
+    z-index: 5552222;
+    float: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav-item i
+{
+    padding-top: 4px;
+}
+.rightSide
+{
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 100px;
+    z-index: 22222;
+    
+}
+.leftSide
+{
+    
+   overflow: auto;
+}
+h5
+{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    white-space: nowrap;
+    z-index: 2;
+}
+.container-fluid
+{
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.row
+{
+    height: 100%;
+    position: relative;
+    top:69px;
+    left: 0;   
+     overflow: hidden;
+}
+.topHeader
+{
+    border-bottom: 1px dashed #004c7f;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+.bottomFooter
+{
+    border-top: 1px dashed #004c7f;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.tools
+{
+    background-color: #004c7f;
+    z-index: 222;
+}
+.border-color
+{  
+    border-radius: 5px;
+}
+.tool-color
+{
+    height: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.addContainer
+{
+    display: none;
+}
+.colorContainer
+{
+    display: none;
+    overflow: hidden;
+}
+.colorContainer a
+{
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-indent: -9999px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    
+}
+.imageContainer
+{
+    display: none;
+}
+img
+{
+    margin: 2px;
+    cursor: pointer;
+}
+.img-fluid
+{
+ background-size: 100% 100%;   
+}
+
+#babyblue
+{
+ background-color:#87CEFA;
+}
+#darkblue
+{
+    background-color:#004c7f;
+}
+#blue
+{
+ background-color:#0098ff;   
+}
+#wblue
+{
+   background-color:#50b9ff; 
+}
+
